@@ -1,7 +1,7 @@
 import './main.html';
-import '../team.js';
-import '../brand.js';
-import '../testimonial.js'
+import '../team/team.js';
+import '../brand/brand.js';
+import '../testimonial/testimonial.js'
 
 Template.hello.onCreated(function helloOnCreated() {
   // counter starts at 0
