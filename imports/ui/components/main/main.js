@@ -3,6 +3,11 @@ import '../team/team.js';
 import '../brand/brand.js';
 import '../testimonial/testimonial.js'
 
+Template.hello.onRendered(function helloOnRendered() {
+    // counter starts at 0
+    $(".owl-carousel").owlCarousel();
+});
+
 Template.hello.onCreated(function helloOnCreated() {
   // counter starts at 0
   this.counter = new ReactiveVar(0);
